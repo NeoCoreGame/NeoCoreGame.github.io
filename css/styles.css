@@ -3807,7 +3807,7 @@ textarea.form-control-lg {
   --bs-navbar-brand-padding-y: 0.3125rem;
   --bs-navbar-brand-margin-end: 1rem;
   --bs-navbar-brand-font-size: 1.25rem;
-  --bs-navbar-brand-color: rgba(0, 0, 0, 0.9);
+  --bs-navbar-brand-color: rgba(255, 255, 255, 0.9);
   --bs-navbar-brand-hover-color: rgba(0, 0, 0, 0.9);
   --bs-navbar-nav-link-padding-x: 0.5rem;
   --bs-navbar-toggler-padding-y: 0.25rem;
@@ -11016,12 +11016,12 @@ body {
   }
   #mainNav .navbar-brand {
     padding: 0.5rem 0;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(0, 0, 5, 0.5);
   }
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(0, 0, 5, 0.8);
   }
   #mainNav .nav-link:hover {
     color: rgba(255, 255, 255, 0.75);
@@ -11069,7 +11069,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.0) 0%, rgba(255, 255, 255, 0.0) 100%, #000 100%), url("../assets/img/fondoWeb.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11113,7 +11113,7 @@ body {
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  background: linear-gradient(to bottom, #000 0%, rgba(255, 255, 255, 0.0) 0%, rgba(255, 255, 255, 0.95) 100%), url("../assets/img/fondoWeb.png");
 }
 .about-section p {
   margin-bottom: 5rem;
@@ -11162,6 +11162,7 @@ body {
 
 .contact-section {
   padding-top: 5rem;
+  background: linear-gradient(to top, #000 0%, rgba(255, 255, 255, 0.0) 0%, rgba(255, 255, 255, 0.95) 100%), url("../assets/img/fondoWeb.png");
 }
 .contact-section .card {
   border: 0;
@@ -11186,10 +11187,10 @@ body {
   text-align: center;
   height: 3rem;
   width: 3rem;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.5);
   border-radius: 100%;
   line-height: 3rem;
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.5);
 }
 .contact-section .social a:hover {
   color: rgba(255, 255, 255, 0.5);
@@ -11200,4 +11201,5 @@ body {
 
 .footer {
   padding: 5rem 0;
+  background: url("../assets/img/fondoWeb.png");
 }
